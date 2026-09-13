@@ -2,6 +2,7 @@ import { defineConfig } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig({
+  base: "/spell-and-discover/",
   server: {
     port: 5757,
     strictPort: true,
@@ -29,7 +30,7 @@ export default defineConfig({
         icons: [{ src: "icon.svg", sizes: "any", type: "image/svg+xml" }],
       },
       workbox: {
-        maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
+        maximumFileSizeToCacheInBytes: 30 * 1024 * 1024,
         runtimeCaching: [
           {
             // Cache the Kokoro TTS model + voice weights from the HF CDN so
