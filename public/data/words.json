@@ -1,218 +1,1507 @@
 [
-  {"word": "cat", "def": "A small furry pet that says meow.", "emoji": "🐱"},
-  {"word": "dog", "def": "A furry pet that barks and loves to play.", "emoji": "🐶"},
-  {"word": "sun", "def": "The bright star in the sky that gives us light and warmth.", "emoji": "☀️"},
-  {"word": "run", "def": "To move fast on your feet.", "emoji": "🏃"},
-  {"word": "big", "def": "Large in size.", "emoji": "🐘"},
-  {"word": "red", "def": "A bright color, like a fire truck.", "emoji": "🔴"},
-  {"word": "mom", "def": "Your mother.", "emoji": "👩"},
-  {"word": "dad", "def": "Your father.", "emoji": "👨"},
-  {"word": "ball", "def": "A round toy you can throw, kick, or bounce.", "emoji": "⚽"},
-  {"word": "book", "def": "Pages with words and pictures that you read.", "emoji": "📖"},
-  {"word": "tree", "def": "A tall plant with a trunk, branches, and leaves.", "emoji": "🌳"},
-  {"word": "fish", "def": "An animal that swims and breathes underwater.", "emoji": "🐟"},
-  {"word": "bird", "def": "An animal with feathers and wings that can fly.", "emoji": "🐦"},
-  {"word": "star", "def": "A bright light you see twinkling in the night sky.", "emoji": "⭐"},
-  {"word": "moon", "def": "The round object in the sky at night.", "emoji": "🌙"},
-  {"word": "rain", "def": "Water that falls from clouds in the sky.", "emoji": "🌧️"},
-  {"word": "snow", "def": "Soft, cold, white flakes that fall in winter.", "emoji": "❄️"},
-  {"word": "cake", "def": "A sweet baked treat, often for birthdays.", "emoji": "🎂"},
-  {"word": "milk", "def": "A white drink that comes from cows.", "emoji": "🥛"},
-  {"word": "bee", "def": "A buzzing insect that makes honey.", "emoji": "🐝"},
-  {"word": "ant", "def": "A tiny insect that lives in a colony underground.", "emoji": "🐜"},
-  {"word": "cow", "def": "A big farm animal that gives us milk.", "emoji": "🐄"},
-  {"word": "pig", "def": "A pink farm animal that says oink.", "emoji": "🐷"},
-  {"word": "hen", "def": "A female chicken that lays eggs.", "emoji": "🐔"},
-  {"word": "duck", "def": "A bird that swims in ponds and says quack.", "emoji": "🦆"},
-  {"word": "frog", "def": "A small hopping animal that lives near water.", "emoji": "🐸"},
-  {"word": "bear", "def": "A big furry animal that lives in the woods.", "emoji": "🐻"},
-  {"word": "lion", "def": "A big wild cat known as the king of the jungle.", "emoji": "🦁"},
-  {"word": "wolf", "def": "A wild animal related to dogs that howls at night.", "emoji": "🐺"},
-  {"word": "goat", "def": "A farm animal with horns that likes to climb.", "emoji": "🐐"},
-  {"word": "deer", "def": "A graceful animal that lives in the forest.", "emoji": "🦌"},
-  {"word": "crab", "def": "A sea animal with pinching claws that walks sideways.", "emoji": "🦀"},
-  {"word": "shark", "def": "A big fish with sharp teeth that lives in the ocean.", "emoji": "🦈"},
-  {"word": "whale", "def": "A huge animal that lives in the ocean.", "emoji": "🐳"},
-  {"word": "mouse", "def": "A tiny animal with a long tail.", "emoji": "🐭"},
-  {"word": "snake", "def": "A long animal with no legs that slithers.", "emoji": "🐍"},
-  {"word": "horse", "def": "A big animal you can ride.", "emoji": "🐴"},
-  {"word": "sheep", "def": "A fluffy farm animal that gives us wool.", "emoji": "🐑"},
-  {"word": "tiger", "def": "A big wild cat with orange and black stripes.", "emoji": "🐯"},
-  {"word": "zebra", "def": "A wild animal that looks like a horse with black and white stripes.", "emoji": "🦓"},
-  {"word": "apple", "def": "A round, crunchy fruit that can be red, green, or yellow.", "emoji": "🍎"},
-  {"word": "grape", "def": "A small, round, sweet fruit that grows in bunches.", "emoji": "🍇"},
-  {"word": "lemon", "def": "A yellow, sour fruit.", "emoji": "🍋"},
-  {"word": "peach", "def": "A soft, fuzzy, sweet fruit.", "emoji": "🍑"},
-  {"word": "melon", "def": "A big, juicy, round fruit.", "emoji": "🍈"},
-  {"word": "bread", "def": "A food made from baked dough, often used for sandwiches.", "emoji": "🍞"},
-  {"word": "candy", "def": "A sweet treat.", "emoji": "🍬"},
-  {"word": "pizza", "def": "A round food with cheese and toppings on flat dough.", "emoji": "🍕"},
-  {"word": "juice", "def": "A sweet drink made from fruit.", "emoji": "🧃"},
-  {"word": "water", "def": "The clear liquid we drink and swim in.", "emoji": "💧"},
-  {"word": "house", "def": "A building where people live.", "emoji": "🏠"},
-  {"word": "chair", "def": "Something you sit on.", "emoji": "🪑"},
-  {"word": "table", "def": "A piece of furniture with a flat top you eat or work on.", "emoji": "🪑"},
-  {"word": "door", "def": "A part of a wall or room that opens and closes so you can go through.", "emoji": "🚪"},
-  {"word": "shoe", "def": "Something you wear on your foot.", "emoji": "👟"},
-  {"word": "sock", "def": "Soft clothing you wear on your foot, under your shoe.", "emoji": "🧦"},
-  {"word": "hat", "def": "Something you wear on your head.", "emoji": "🎩"},
-  {"word": "coat", "def": "A piece of clothing you wear to stay warm outside.", "emoji": "🧥"},
-  {"word": "ring", "def": "A small circle of jewelry you wear on your finger.", "emoji": "💍"},
-  {"word": "car", "def": "A vehicle with four wheels that people drive.", "emoji": "🚗"},
-  {"word": "bus", "def": "A big vehicle that carries lots of people.", "emoji": "🚌"},
-  {"word": "bike", "def": "A vehicle with two wheels that you pedal.", "emoji": "🚲"},
-  {"word": "boat", "def": "A vehicle that floats and travels on water.", "emoji": "⛵"},
-  {"word": "train", "def": "A long vehicle that runs on tracks.", "emoji": "🚂"},
-  {"word": "plane", "def": "A vehicle that flies through the air.", "emoji": "✈️"},
-  {"word": "truck", "def": "A big vehicle used to carry things.", "emoji": "🚚"},
-  {"word": "ship", "def": "A very large boat.", "emoji": "🚢"},
-  {"word": "rock", "def": "A hard piece of stone.", "emoji": "🪨"},
-  {"word": "sand", "def": "Tiny grains of rock found on beaches and deserts.", "emoji": "🏖️"},
-  {"word": "cloud", "def": "A white or gray shape floating in the sky, made of tiny water drops.", "emoji": "☁️"},
-  {"word": "sky", "def": "The space above the earth where clouds and birds are.", "emoji": "🌤️"},
-  {"word": "leaf", "def": "A flat green part of a plant that grows from a branch.", "emoji": "🍃"},
-  {"word": "flower", "def": "The colorful, pretty part of a plant.", "emoji": "🌸"},
-  {"word": "grass", "def": "The green plants that cover the ground.", "emoji": "🌱"},
-  {"word": "egg", "def": "An oval object laid by birds, often eaten as food.", "emoji": "🥚"},
-  {"word": "nest", "def": "A home a bird builds for its eggs.", "emoji": "🪺"},
-  {"word": "web", "def": "A sticky net a spider spins to catch food.", "emoji": "🕸️"},
-  {"word": "spider", "def": "A small crawling animal with eight legs that spins webs.", "emoji": "🕷️"},
-  {"word": "king", "def": "A man who rules a country.", "emoji": "🤴"},
-  {"word": "queen", "def": "A woman who rules a country.", "emoji": "👸"},
-  {"word": "baby", "def": "A very young child.", "emoji": "👶"},
-  {"word": "girl", "def": "A young female person.", "emoji": "👧"},
-  {"word": "boy", "def": "A young male person.", "emoji": "👦"},
-  {"word": "friend", "def": "Someone you like and enjoy spending time with.", "emoji": "🧑‍🤝‍🧑"},
-  {"word": "smile", "def": "A happy expression on your face.", "emoji": "😊"},
-  {"word": "happy", "def": "Feeling good and joyful.", "emoji": "😀"},
-  {"word": "sad", "def": "Feeling unhappy.", "emoji": "😢"},
-  {"word": "jump", "def": "To push off the ground into the air.", "emoji": "🤸"},
-  {"word": "walk", "def": "To move by putting one foot in front of the other.", "emoji": "🚶"},
-  {"word": "sing", "def": "To make music with your voice.", "emoji": "🎤"},
-  {"word": "dance", "def": "To move your body to music.", "emoji": "💃"},
-  {"word": "play", "def": "To have fun doing an activity or game.", "emoji": "🧸"},
-  {"word": "sleep", "def": "To rest with your eyes closed at night.", "emoji": "😴"},
-  {"word": "eat", "def": "To put food in your mouth and swallow it.", "emoji": "🍽️"},
-  {"word": "drink", "def": "To swallow a liquid.", "emoji": "🥤"},
-  {"word": "read", "def": "To look at words and understand them.", "emoji": "📚"},
-  {"word": "write", "def": "To put words on paper using a pen or pencil.", "emoji": "✏️"},
-  {"word": "draw", "def": "To make a picture with a pencil or crayon.", "emoji": "🖍️"},
-  {"word": "swim", "def": "To move through water using your arms and legs.", "emoji": "🏊"},
-  {"word": "fly", "def": "To move through the air, like a bird or plane.", "emoji": "🦋"},
-  {"word": "climb", "def": "To move up something using your hands and feet.", "emoji": "🧗"},
-  {"word": "throw", "def": "To send something through the air with your hand.", "emoji": "🤾"},
-  {"word": "catch", "def": "To grab something that is moving toward you.", "emoji": "🥎"},
-  {"word": "one", "def": "The number 1.", "emoji": "1️⃣"},
-  {"word": "two", "def": "The number 2.", "emoji": "2️⃣"},
-  {"word": "three", "def": "The number 3.", "emoji": "3️⃣"},
-  {"word": "four", "def": "The number 4.", "emoji": "4️⃣"},
-  {"word": "five", "def": "The number 5.", "emoji": "5️⃣"},
-  {"word": "six", "def": "The number 6.", "emoji": "6️⃣"},
-  {"word": "seven", "def": "The number 7.", "emoji": "7️⃣"},
-  {"word": "eight", "def": "The number 8.", "emoji": "8️⃣"},
-  {"word": "nine", "def": "The number 9.", "emoji": "9️⃣"},
-  {"word": "ten", "def": "The number 10.", "emoji": "🔟"},
-  {"word": "blue", "def": "The color of the sky on a clear day.", "emoji": "🔵"},
-  {"word": "green", "def": "The color of grass and leaves.", "emoji": "🟢"},
-  {"word": "yellow", "def": "The color of the sun and bananas.", "emoji": "🟡"},
-  {"word": "black", "def": "A very dark color, like the night sky.", "emoji": "⚫"},
-  {"word": "white", "def": "The color of fresh snow.", "emoji": "⚪"},
-  {"word": "brown", "def": "A color like dirt or wood.", "emoji": "🟤"},
-  {"word": "purple", "def": "A color made by mixing red and blue.", "emoji": "🟣"},
-  {"word": "orange", "def": "A color, and also a round juicy fruit.", "emoji": "🟠"},
-  {"word": "pink", "def": "A light red color.", "emoji": "💗"},
-  {"word": "banana", "def": "A long yellow fruit.", "emoji": "🍌"},
-  {"word": "carrot", "def": "A long orange vegetable that grows underground.", "emoji": "🥕"},
-  {"word": "potato", "def": "A vegetable that grows underground and can be baked or fried.", "emoji": "🥔"},
-  {"word": "cookie", "def": "A small sweet baked treat.", "emoji": "🍪"},
-  {"word": "cheese", "def": "A food made from milk.", "emoji": "🧀"},
-  {"word": "sandwich", "def": "Food made with slices of bread and fillings in between.", "emoji": "🥪"},
-  {"word": "soup", "def": "A warm liquid food often eaten with a spoon.", "emoji": "🍲"},
-  {"word": "rice", "def": "Small white or brown grains that are cooked and eaten.", "emoji": "🍚"},
-  {"word": "corn", "def": "A yellow vegetable that grows on a tall plant.", "emoji": "🌽"},
-  {"word": "school", "def": "A place where children go to learn.", "emoji": "🏫"},
-  {"word": "teacher", "def": "A person who helps students learn.", "emoji": "🧑‍🏫"},
-  {"word": "pencil", "def": "A tool used for writing or drawing.", "emoji": "✏️"},
-  {"word": "crayon", "def": "A colored wax stick used for drawing.", "emoji": "🖍️"},
-  {"word": "paper", "def": "A thin material you write or draw on.", "emoji": "📄"},
-  {"word": "desk", "def": "A table used for writing or working.", "emoji": "🗄️"},
-  {"word": "clock", "def": "A device that tells you what time it is.", "emoji": "🕐"},
-  {"word": "phone", "def": "A device used to talk to people far away.", "emoji": "📱"},
-  {"word": "music", "def": "Sounds arranged in a pleasing way, like songs.", "emoji": "🎵"},
-  {"word": "drum", "def": "A musical instrument you hit to make a beat.", "emoji": "🥁"},
-  {"word": "piano", "def": "A large musical instrument with black and white keys.", "emoji": "🎹"},
-  {"word": "guitar", "def": "A musical instrument with strings that you strum.", "emoji": "🎸"},
-  {"word": "ocean", "def": "A very large body of salt water.", "emoji": "🌊"},
-  {"word": "river", "def": "A long, flowing body of water.", "emoji": "🏞️"},
-  {"word": "lake", "def": "A large body of water surrounded by land.", "emoji": "🏞️"},
-  {"word": "mountain", "def": "A very tall, large hill made of rock.", "emoji": "⛰️"},
-  {"word": "island", "def": "A piece of land surrounded by water.", "emoji": "🏝️"},
-  {"word": "forest", "def": "A large area covered with trees.", "emoji": "🌲"},
-  {"word": "desert", "def": "A dry, sandy area that gets very little rain.", "emoji": "🏜️"},
-  {"word": "rainbow", "def": "A colorful arc that appears in the sky after rain.", "emoji": "🌈"},
-  {"word": "lightning", "def": "A bright flash of light in the sky during a storm.", "emoji": "⚡"},
-  {"word": "thunder", "def": "The loud rumbling sound that follows lightning.", "emoji": "⛈️"},
-  {"word": "winter", "def": "The cold season of the year.", "emoji": "⛄"},
-  {"word": "summer", "def": "The warm season of the year.", "emoji": "🌞"},
-  {"word": "spring", "def": "The season after winter, when flowers bloom.", "emoji": "🌷"},
-  {"word": "autumn", "def": "The season when leaves change color and fall.", "emoji": "🍂"},
-  {"word": "party", "def": "A fun gathering to celebrate something.", "emoji": "🎉"},
-  {"word": "gift", "def": "Something given to someone, often for a celebration.", "emoji": "🎁"},
-  {"word": "balloon", "def": "A rubber bag filled with air or gas, used at parties.", "emoji": "🎈"},
-  {"word": "castle", "def": "A big stone building where kings and queens once lived.", "emoji": "🏰"},
-  {"word": "dragon", "def": "A giant, scaly, fire-breathing creature from stories.", "emoji": "🐉"},
-  {"word": "robot", "def": "A machine that can move and do tasks on its own.", "emoji": "🤖"},
-  {"word": "rocket", "def": "A vehicle that flies into space.", "emoji": "🚀"},
-  {"word": "planet", "def": "A large round object in space that orbits a star.", "emoji": "🪐"},
-  {"word": "space", "def": "The huge area beyond Earth's sky where planets and stars are.", "emoji": "🌌"},
-  {"word": "map", "def": "A drawing that shows where places are.", "emoji": "🗺️"},
-  {"word": "key", "def": "A small metal tool used to lock or unlock something.", "emoji": "🔑"},
-  {"word": "box", "def": "A container with straight sides, used to hold things.", "emoji": "📦"},
-  {"word": "bag", "def": "A container made of soft material used to carry things.", "emoji": "🎒"},
-  {"word": "cup", "def": "A small container used for drinking.", "emoji": "🥤"},
-  {"word": "plate", "def": "A flat dish you put food on.", "emoji": "🍽️"},
-  {"word": "spoon", "def": "A utensil with a small bowl shape used for eating.", "emoji": "🥄"},
-  {"word": "fork", "def": "A utensil with prongs used for eating.", "emoji": "🍴"},
-  {"word": "knife", "def": "A tool with a sharp edge used for cutting.", "emoji": "🔪"},
-  {"word": "bed", "def": "A piece of furniture you sleep on.", "emoji": "🛏️"},
-  {"word": "pillow", "def": "A soft cushion you rest your head on.", "emoji": "🛌"},
-  {"word": "blanket", "def": "A soft covering used to keep warm.", "emoji": "🧵"},
-  {"word": "toy", "def": "Something children play with.", "emoji": "🧸"},
-  {"word": "kite", "def": "A light toy that flies in the wind on a string.", "emoji": "🪁"},
-  {"word": "puzzle", "def": "A game made of pieces that fit together.", "emoji": "🧩"},
-  {"word": "game", "def": "An activity you play, often with rules.", "emoji": "🎮"},
-  {"word": "farm", "def": "Land used to grow crops or raise animals.", "emoji": "🚜"},
-  {"word": "zoo", "def": "A place where wild animals are kept for people to see.", "emoji": "🦁"},
-  {"word": "park", "def": "An outdoor place with grass and trees for playing.", "emoji": "🏞️"},
-  {"word": "beach", "def": "A sandy area next to the ocean.", "emoji": "🏖️"},
-  {"word": "garden", "def": "A place where plants and flowers are grown.", "emoji": "🌻"},
-  {"word": "kitchen", "def": "A room where food is cooked.", "emoji": "🍳"},
-  {"word": "bath", "def": "A wash of your whole body in water.", "emoji": "🛁"},
-  {"word": "brush", "def": "A tool with bristles used for cleaning or hair.", "emoji": "🪥"},
-  {"word": "soap", "def": "Something used with water to get clean.", "emoji": "🧼"},
-  {"word": "towel", "def": "A cloth used to dry yourself off.", "emoji": "🧻"},
-  {"word": "mirror", "def": "A shiny surface that shows your reflection.", "emoji": "🪞"},
-  {"word": "window", "def": "An opening in a wall with glass, letting in light.", "emoji": "🪟"},
-  {"word": "roof", "def": "The top covering of a building.", "emoji": "🏠"},
-  {"word": "wall", "def": "A vertical structure that separates spaces.", "emoji": "🧱"},
-  {"word": "floor", "def": "The surface you walk on inside a room.", "emoji": "🧱"},
-  {"word": "candle", "def": "A wax stick with a wick you burn for light.", "emoji": "🕯️"},
-  {"word": "fire", "def": "The hot, bright flame that burns and gives heat.", "emoji": "🔥"},
-  {"word": "ice", "def": "Water that has frozen solid.", "emoji": "🧊"},
-  {"word": "wind", "def": "Air that is moving.", "emoji": "💨"},
-  {"word": "storm", "def": "Very bad, windy, rainy weather.", "emoji": "⛈️"},
-  {"word": "butterfly", "def": "An insect with big colorful wings.", "emoji": "🦋"},
-  {"word": "turtle", "def": "A slow-moving animal with a hard shell.", "emoji": "🐢"},
-  {"word": "rabbit", "def": "A small furry animal with long ears that hops.", "emoji": "🐰"},
-  {"word": "squirrel", "def": "A small furry animal with a bushy tail that climbs trees.", "emoji": "🐿️"},
-  {"word": "owl", "def": "A bird with big eyes that is awake at night.", "emoji": "🦉"},
-  {"word": "penguin", "def": "A black and white bird that cannot fly but swims well.", "emoji": "🐧"},
-  {"word": "monkey", "def": "An animal that climbs trees and looks a bit like a person.", "emoji": "🐵"},
-  {"word": "elephant", "def": "A huge gray animal with a long trunk and big ears.", "emoji": "🐘"},
-  {"word": "giraffe", "def": "A very tall animal with a long neck and spots.", "emoji": "🦒"},
-  {"word": "kangaroo", "def": "An animal that hops and carries its baby in a pouch.", "emoji": "🦘"},
-  {"word": "koala", "def": "A furry gray animal from Australia that climbs trees.", "emoji": "🐨"},
-  {"word": "panda", "def": "A black and white bear that eats bamboo.", "emoji": "🐼"},
-  {"word": "hippo", "def": "A large gray animal that lives near rivers in Africa.", "emoji": "🦛"},
-  {"word": "camel", "def": "An animal with humps on its back that lives in the desert.", "emoji": "🐫"}
+  {
+    "word": "ant",
+    "def": "A tiny insect that lives in a colony underground.",
+    "emoji": "\ud83d\udc1c"
+  },
+  {
+    "word": "apple",
+    "def": "A round, crunchy fruit that can be red, green, or yellow.",
+    "emoji": "\ud83c\udf4e"
+  },
+  {
+    "word": "ate",
+    "def": "Ate means you chewed and swallowed food.",
+    "emoji": "\ud83c\udf7d\ufe0f"
+  },
+  {
+    "word": "autumn",
+    "def": "The season when leaves change color and fall.",
+    "emoji": "\ud83c\udf42"
+  },
+  {
+    "word": "baby",
+    "def": "A very young child.",
+    "emoji": "\ud83d\udc76"
+  },
+  {
+    "word": "bag",
+    "def": "A container made of soft material used to carry things.",
+    "emoji": "\ud83c\udf92"
+  },
+  {
+    "word": "ball",
+    "def": "A round toy you can throw, kick, or bounce.",
+    "emoji": "\u26bd"
+  },
+  {
+    "word": "balloon",
+    "def": "A rubber bag filled with air or gas, used at parties.",
+    "emoji": "\ud83c\udf88"
+  },
+  {
+    "word": "banana",
+    "def": "A long yellow fruit.",
+    "emoji": "\ud83c\udf4c"
+  },
+  {
+    "word": "bat",
+    "def": "A flying nighttime animal, or a stick used to hit a ball.",
+    "emoji": "\ud83e\udd87"
+  },
+  {
+    "word": "bath",
+    "def": "A wash of your whole body in water.",
+    "emoji": "\ud83d\udec1"
+  },
+  {
+    "word": "beach",
+    "def": "A sandy area next to the ocean.",
+    "emoji": "\ud83c\udfd6\ufe0f"
+  },
+  {
+    "word": "bear",
+    "def": "A big furry animal that lives in the woods.",
+    "emoji": "\ud83d\udc3b"
+  },
+  {
+    "word": "bed",
+    "def": "A piece of furniture you sleep on.",
+    "emoji": "\ud83d\udecf\ufe0f"
+  },
+  {
+    "word": "bee",
+    "def": "A buzzing insect that makes honey.",
+    "emoji": "\ud83d\udc1d"
+  },
+  {
+    "word": "big",
+    "def": "Large in size.",
+    "emoji": "\ud83d\udc18"
+  },
+  {
+    "word": "bike",
+    "def": "A vehicle with two wheels that you pedal.",
+    "emoji": "\ud83d\udeb2"
+  },
+  {
+    "word": "bird",
+    "def": "An animal with feathers and wings that can fly.",
+    "emoji": "\ud83d\udc26"
+  },
+  {
+    "word": "bit",
+    "def": "A tiny piece of something.",
+    "emoji": "\ud83d\udd39"
+  },
+  {
+    "word": "black",
+    "def": "A very dark color, like the night sky.",
+    "emoji": "\u26ab"
+  },
+  {
+    "word": "blanket",
+    "def": "A soft covering used to keep warm.",
+    "emoji": "\ud83e\uddf5"
+  },
+  {
+    "word": "blue",
+    "def": "The color of the sky on a clear day.",
+    "emoji": "\ud83d\udd35"
+  },
+  {
+    "word": "boat",
+    "def": "A vehicle that floats and travels on water.",
+    "emoji": "\u26f5"
+  },
+  {
+    "word": "book",
+    "def": "Pages with words and pictures that you read.",
+    "emoji": "\ud83d\udcd6"
+  },
+  {
+    "word": "box",
+    "def": "A container with straight sides, used to hold things.",
+    "emoji": "\ud83d\udce6"
+  },
+  {
+    "word": "boy",
+    "def": "A young male person.",
+    "emoji": "\ud83d\udc66"
+  },
+  {
+    "word": "bread",
+    "def": "A food made from baked dough, often used for sandwiches.",
+    "emoji": "\ud83c\udf5e"
+  },
+  {
+    "word": "brown",
+    "def": "A color like dirt or wood.",
+    "emoji": "\ud83d\udfe4"
+  },
+  {
+    "word": "brush",
+    "def": "A tool with bristles used for cleaning or hair.",
+    "emoji": "\ud83e\udea5"
+  },
+  {
+    "word": "bug",
+    "def": "A small crawling or flying insect.",
+    "emoji": "\ud83d\udc1b"
+  },
+  {
+    "word": "bun",
+    "def": "A small round piece of bread.",
+    "emoji": "\ud83e\udd50"
+  },
+  {
+    "word": "bus",
+    "def": "A big vehicle that carries lots of people.",
+    "emoji": "\ud83d\ude8c"
+  },
+  {
+    "word": "butterfly",
+    "def": "An insect with big colorful wings.",
+    "emoji": "\ud83e\udd8b"
+  },
+  {
+    "word": "buy",
+    "def": "To get something by paying money for it.",
+    "emoji": "\ud83d\uded2"
+  },
+  {
+    "word": "cake",
+    "def": "A sweet baked treat, often for birthdays.",
+    "emoji": "\ud83c\udf82"
+  },
+  {
+    "word": "camel",
+    "def": "An animal with humps on its back that lives in the desert.",
+    "emoji": "\ud83d\udc2b"
+  },
+  {
+    "word": "can",
+    "def": "A word that means you are able to do something.",
+    "emoji": "\ud83e\udd6b"
+  },
+  {
+    "word": "candle",
+    "def": "A wax stick with a wick you burn for light.",
+    "emoji": "\ud83d\udd6f\ufe0f"
+  },
+  {
+    "word": "candy",
+    "def": "A sweet treat.",
+    "emoji": "\ud83c\udf6c"
+  },
+  {
+    "word": "cap",
+    "def": "A soft hat, or a lid that covers something.",
+    "emoji": "\ud83e\udde2"
+  },
+  {
+    "word": "car",
+    "def": "A vehicle with four wheels that people drive.",
+    "emoji": "\ud83d\ude97"
+  },
+  {
+    "word": "carrot",
+    "def": "A long orange vegetable that grows underground.",
+    "emoji": "\ud83e\udd55"
+  },
+  {
+    "word": "castle",
+    "def": "A big stone building where kings and queens once lived.",
+    "emoji": "\ud83c\udff0"
+  },
+  {
+    "word": "cat",
+    "def": "A small furry pet that says meow.",
+    "emoji": "\ud83d\udc31"
+  },
+  {
+    "word": "catch",
+    "def": "To grab something that is moving toward you.",
+    "emoji": "\ud83e\udd4e"
+  },
+  {
+    "word": "chair",
+    "def": "Something you sit on.",
+    "emoji": "\ud83e\ude91"
+  },
+  {
+    "word": "cheese",
+    "def": "A food made from milk.",
+    "emoji": "\ud83e\uddc0"
+  },
+  {
+    "word": "climb",
+    "def": "To move up something using your hands and feet.",
+    "emoji": "\ud83e\uddd7"
+  },
+  {
+    "word": "clock",
+    "def": "A device that tells you what time it is.",
+    "emoji": "\ud83d\udd50"
+  },
+  {
+    "word": "cloud",
+    "def": "A white or gray shape floating in the sky, made of tiny water drops.",
+    "emoji": "\u2601\ufe0f"
+  },
+  {
+    "word": "coat",
+    "def": "A piece of clothing you wear to stay warm outside.",
+    "emoji": "\ud83e\udde5"
+  },
+  {
+    "word": "cookie",
+    "def": "A small sweet baked treat.",
+    "emoji": "\ud83c\udf6a"
+  },
+  {
+    "word": "corn",
+    "def": "A yellow vegetable that grows on a tall plant.",
+    "emoji": "\ud83c\udf3d"
+  },
+  {
+    "word": "cow",
+    "def": "A big farm animal that gives us milk.",
+    "emoji": "\ud83d\udc04"
+  },
+  {
+    "word": "crab",
+    "def": "A sea animal with pinching claws that walks sideways.",
+    "emoji": "\ud83e\udd80"
+  },
+  {
+    "word": "crayon",
+    "def": "A colored wax stick used for drawing.",
+    "emoji": "\ud83d\udd8d\ufe0f"
+  },
+  {
+    "word": "cup",
+    "def": "A small container used for drinking.",
+    "emoji": "\ud83e\udd64"
+  },
+  {
+    "word": "cut",
+    "def": "To divide something using something sharp.",
+    "emoji": "\u2702\ufe0f"
+  },
+  {
+    "word": "dad",
+    "def": "Your father.",
+    "emoji": "\ud83d\udc68"
+  },
+  {
+    "word": "dance",
+    "def": "To move your body to music.",
+    "emoji": "\ud83d\udc83"
+  },
+  {
+    "word": "deer",
+    "def": "A graceful animal that lives in the forest.",
+    "emoji": "\ud83e\udd8c"
+  },
+  {
+    "word": "desert",
+    "def": "A dry, sandy area that gets very little rain.",
+    "emoji": "\ud83c\udfdc\ufe0f"
+  },
+  {
+    "word": "desk",
+    "def": "A table used for writing or working.",
+    "emoji": "\ud83d\uddc4\ufe0f"
+  },
+  {
+    "word": "dig",
+    "def": "To make a hole in the ground.",
+    "emoji": "\u26cf\ufe0f"
+  },
+  {
+    "word": "dog",
+    "def": "A furry pet that barks and loves to play.",
+    "emoji": "\ud83d\udc36"
+  },
+  {
+    "word": "door",
+    "def": "A part of a wall or room that opens and closes so you can go through.",
+    "emoji": "\ud83d\udeaa"
+  },
+  {
+    "word": "dot",
+    "def": "A small round mark.",
+    "emoji": "\ud83d\udd34"
+  },
+  {
+    "word": "dragon",
+    "def": "A giant, scaly, fire-breathing creature from stories.",
+    "emoji": "\ud83d\udc09"
+  },
+  {
+    "word": "draw",
+    "def": "To make a picture with a pencil or crayon.",
+    "emoji": "\ud83d\udd8d\ufe0f"
+  },
+  {
+    "word": "drink",
+    "def": "To swallow a liquid.",
+    "emoji": "\ud83e\udd64"
+  },
+  {
+    "word": "drum",
+    "def": "A musical instrument you hit to make a beat.",
+    "emoji": "\ud83e\udd41"
+  },
+  {
+    "word": "dry",
+    "def": "Not wet at all.",
+    "emoji": "\ud83c\udfdc\ufe0f"
+  },
+  {
+    "word": "duck",
+    "def": "A bird that swims in ponds and says quack.",
+    "emoji": "\ud83e\udd86"
+  },
+  {
+    "word": "eat",
+    "def": "To put food in your mouth and swallow it.",
+    "emoji": "\ud83c\udf7d\ufe0f"
+  },
+  {
+    "word": "egg",
+    "def": "An oval object laid by birds, often eaten as food.",
+    "emoji": "\ud83e\udd5a"
+  },
+  {
+    "word": "eight",
+    "def": "The number 8.",
+    "emoji": "8\ufe0f\u20e3"
+  },
+  {
+    "word": "elephant",
+    "def": "A huge gray animal with a long trunk and big ears.",
+    "emoji": "\ud83d\udc18"
+  },
+  {
+    "word": "end",
+    "def": "The last part of something.",
+    "emoji": "\ud83c\udfc1"
+  },
+  {
+    "word": "eye",
+    "def": "The body part you see with.",
+    "emoji": "\ud83d\udc41\ufe0f"
+  },
+  {
+    "word": "fan",
+    "def": "A device that blows air to cool you down.",
+    "emoji": "\ud83c\udf00"
+  },
+  {
+    "word": "far",
+    "def": "A long distance away.",
+    "emoji": "\ud83d\udee3\ufe0f"
+  },
+  {
+    "word": "farm",
+    "def": "Land used to grow crops or raise animals.",
+    "emoji": "\ud83d\ude9c"
+  },
+  {
+    "word": "fat",
+    "def": "Having a lot of extra roundness.",
+    "emoji": "\ud83d\udc16"
+  },
+  {
+    "word": "few",
+    "def": "Not many; a small number.",
+    "emoji": "\ud83d\udd22"
+  },
+  {
+    "word": "fire",
+    "def": "The hot, bright flame that burns and gives heat.",
+    "emoji": "\ud83d\udd25"
+  },
+  {
+    "word": "fish",
+    "def": "An animal that swims and breathes underwater.",
+    "emoji": "\ud83d\udc1f"
+  },
+  {
+    "word": "fit",
+    "def": "Healthy and strong, or the right size.",
+    "emoji": "\ud83d\udcaa"
+  },
+  {
+    "word": "five",
+    "def": "The number 5.",
+    "emoji": "5\ufe0f\u20e3"
+  },
+  {
+    "word": "fix",
+    "def": "To repair something that is broken.",
+    "emoji": "\ud83d\udd27"
+  },
+  {
+    "word": "floor",
+    "def": "The surface you walk on inside a room.",
+    "emoji": "\ud83e\uddf1"
+  },
+  {
+    "word": "flower",
+    "def": "The colorful, pretty part of a plant.",
+    "emoji": "\ud83c\udf38"
+  },
+  {
+    "word": "fly",
+    "def": "To move through the air, like a bird or plane.",
+    "emoji": "\ud83e\udd8b"
+  },
+  {
+    "word": "for",
+    "def": "A word showing who or what something is meant for.",
+    "emoji": "\ud83c\udf81"
+  },
+  {
+    "word": "forest",
+    "def": "A large area covered with trees.",
+    "emoji": "\ud83c\udf32"
+  },
+  {
+    "word": "fork",
+    "def": "A utensil with prongs used for eating.",
+    "emoji": "\ud83c\udf74"
+  },
+  {
+    "word": "four",
+    "def": "The number 4.",
+    "emoji": "4\ufe0f\u20e3"
+  },
+  {
+    "word": "fox",
+    "def": "A wild animal that looks like a small, clever dog.",
+    "emoji": "\ud83e\udd8a"
+  },
+  {
+    "word": "friend",
+    "def": "Someone you like and enjoy spending time with.",
+    "emoji": "\ud83e\uddd1\u200d\ud83e\udd1d\u200d\ud83e\uddd1"
+  },
+  {
+    "word": "frog",
+    "def": "A small hopping animal that lives near water.",
+    "emoji": "\ud83d\udc38"
+  },
+  {
+    "word": "fun",
+    "def": "Something that makes you feel happy and want to keep doing it.",
+    "emoji": "\ud83c\udf89"
+  },
+  {
+    "word": "game",
+    "def": "An activity you play, often with rules.",
+    "emoji": "\ud83c\udfae"
+  },
+  {
+    "word": "garden",
+    "def": "A place where plants and flowers are grown.",
+    "emoji": "\ud83c\udf3b"
+  },
+  {
+    "word": "gas",
+    "def": "An invisible substance, like air, or fuel for a car.",
+    "emoji": "\u26fd"
+  },
+  {
+    "word": "gift",
+    "def": "Something given to someone, often for a celebration.",
+    "emoji": "\ud83c\udf81"
+  },
+  {
+    "word": "giraffe",
+    "def": "A very tall animal with a long neck and spots.",
+    "emoji": "\ud83e\udd92"
+  },
+  {
+    "word": "girl",
+    "def": "A young female person.",
+    "emoji": "\ud83d\udc67"
+  },
+  {
+    "word": "goat",
+    "def": "A farm animal with horns that likes to climb.",
+    "emoji": "\ud83d\udc10"
+  },
+  {
+    "word": "got",
+    "def": "To have received or gotten something.",
+    "emoji": "\ud83c\udf81"
+  },
+  {
+    "word": "grape",
+    "def": "A small, round, sweet fruit that grows in bunches.",
+    "emoji": "\ud83c\udf47"
+  },
+  {
+    "word": "grass",
+    "def": "The green plants that cover the ground.",
+    "emoji": "\ud83c\udf31"
+  },
+  {
+    "word": "green",
+    "def": "The color of grass and leaves.",
+    "emoji": "\ud83d\udfe2"
+  },
+  {
+    "word": "guitar",
+    "def": "A musical instrument with strings that you strum.",
+    "emoji": "\ud83c\udfb8"
+  },
+  {
+    "word": "gum",
+    "def": "A sweet chewy candy you don't swallow.",
+    "emoji": "\ud83c\udf6c"
+  },
+  {
+    "word": "gun",
+    "def": "A tool that shoots things quickly.",
+    "emoji": "\ud83d\udd2b"
+  },
+  {
+    "word": "happy",
+    "def": "Feeling good and joyful.",
+    "emoji": "\ud83d\ude00"
+  },
+  {
+    "word": "has",
+    "def": "Owns or holds something.",
+    "emoji": "\ud83e\udd32"
+  },
+  {
+    "word": "hat",
+    "def": "Something you wear on your head.",
+    "emoji": "\ud83c\udfa9"
+  },
+  {
+    "word": "hen",
+    "def": "A female chicken that lays eggs.",
+    "emoji": "\ud83d\udc14"
+  },
+  {
+    "word": "him",
+    "def": "A word used for a boy or man.",
+    "emoji": "\ud83d\udc66"
+  },
+  {
+    "word": "hippo",
+    "def": "A large gray animal that lives near rivers in Africa.",
+    "emoji": "\ud83e\udd9b"
+  },
+  {
+    "word": "his",
+    "def": "Belonging to a boy or man.",
+    "emoji": "\ud83d\udc66"
+  },
+  {
+    "word": "hit",
+    "def": "To strike something with force.",
+    "emoji": "\ud83d\udc4a"
+  },
+  {
+    "word": "hop",
+    "def": "To jump on one or both feet.",
+    "emoji": "\ud83d\udc07"
+  },
+  {
+    "word": "horse",
+    "def": "A big animal you can ride.",
+    "emoji": "\ud83d\udc34"
+  },
+  {
+    "word": "hot",
+    "def": "Very warm, like the sun or a stove.",
+    "emoji": "\ud83e\udd75"
+  },
+  {
+    "word": "house",
+    "def": "A building where people live.",
+    "emoji": "\ud83c\udfe0"
+  },
+  {
+    "word": "how",
+    "def": "A word used to ask the way something is done.",
+    "emoji": "\u2753"
+  },
+  {
+    "word": "hug",
+    "def": "To wrap your arms around someone with love.",
+    "emoji": "\ud83e\udd17"
+  },
+  {
+    "word": "ice",
+    "def": "Water that has frozen solid.",
+    "emoji": "\ud83e\uddca"
+  },
+  {
+    "word": "island",
+    "def": "A piece of land surrounded by water.",
+    "emoji": "\ud83c\udfdd\ufe0f"
+  },
+  {
+    "word": "jam",
+    "def": "A sweet spread made from fruit.",
+    "emoji": "\ud83c\udf53"
+  },
+  {
+    "word": "jar",
+    "def": "A round glass or plastic container.",
+    "emoji": "\ud83e\uded9"
+  },
+  {
+    "word": "jet",
+    "def": "A fast airplane.",
+    "emoji": "\u2708\ufe0f"
+  },
+  {
+    "word": "job",
+    "def": "Work that a person does.",
+    "emoji": "\ud83d\udcbc"
+  },
+  {
+    "word": "joy",
+    "def": "A feeling of great happiness.",
+    "emoji": "\ud83d\ude04"
+  },
+  {
+    "word": "juice",
+    "def": "A sweet drink made from fruit.",
+    "emoji": "\ud83e\uddc3"
+  },
+  {
+    "word": "jump",
+    "def": "To push off the ground into the air.",
+    "emoji": "\ud83e\udd38"
+  },
+  {
+    "word": "kangaroo",
+    "def": "An animal that hops and carries its baby in a pouch.",
+    "emoji": "\ud83e\udd98"
+  },
+  {
+    "word": "key",
+    "def": "A small metal tool used to lock or unlock something.",
+    "emoji": "\ud83d\udd11"
+  },
+  {
+    "word": "kid",
+    "def": "A child, or a baby goat.",
+    "emoji": "\ud83e\uddd2"
+  },
+  {
+    "word": "king",
+    "def": "A man who rules a country.",
+    "emoji": "\ud83e\udd34"
+  },
+  {
+    "word": "kit",
+    "def": "A set of tools or items for a purpose.",
+    "emoji": "\ud83e\uddf0"
+  },
+  {
+    "word": "kitchen",
+    "def": "A room where food is cooked.",
+    "emoji": "\ud83c\udf73"
+  },
+  {
+    "word": "kite",
+    "def": "A light toy that flies in the wind on a string.",
+    "emoji": "\ud83e\ude81"
+  },
+  {
+    "word": "knife",
+    "def": "A tool with a sharp edge used for cutting.",
+    "emoji": "\ud83d\udd2a"
+  },
+  {
+    "word": "koala",
+    "def": "A furry gray animal from Australia that climbs trees.",
+    "emoji": "\ud83d\udc28"
+  },
+  {
+    "word": "lake",
+    "def": "A large body of water surrounded by land.",
+    "emoji": "\ud83c\udfde\ufe0f"
+  },
+  {
+    "word": "lap",
+    "def": "The flat area on your legs when sitting.",
+    "emoji": "\ud83e\ude91"
+  },
+  {
+    "word": "law",
+    "def": "A rule that everyone in a place must follow.",
+    "emoji": "\u2696\ufe0f"
+  },
+  {
+    "word": "lay",
+    "def": "To put something down carefully.",
+    "emoji": "\ud83d\udecf\ufe0f"
+  },
+  {
+    "word": "leaf",
+    "def": "A flat green part of a plant that grows from a branch.",
+    "emoji": "\ud83c\udf43"
+  },
+  {
+    "word": "leg",
+    "def": "The body part you stand and walk on.",
+    "emoji": "\ud83e\uddb5"
+  },
+  {
+    "word": "lemon",
+    "def": "A yellow, sour fruit.",
+    "emoji": "\ud83c\udf4b"
+  },
+  {
+    "word": "let",
+    "def": "To allow something to happen.",
+    "emoji": "\ud83d\ude4c"
+  },
+  {
+    "word": "lid",
+    "def": "A cover that closes a container.",
+    "emoji": "\ud83e\uded9"
+  },
+  {
+    "word": "lightning",
+    "def": "A bright flash of light in the sky during a storm.",
+    "emoji": "\u26a1"
+  },
+  {
+    "word": "lion",
+    "def": "A big wild cat known as the king of the jungle.",
+    "emoji": "\ud83e\udd81"
+  },
+  {
+    "word": "lip",
+    "def": "Part of your mouth.",
+    "emoji": "\ud83d\udc44"
+  },
+  {
+    "word": "log",
+    "def": "A thick piece of wood from a tree.",
+    "emoji": "\ud83e\udeb5"
+  },
+  {
+    "word": "low",
+    "def": "Not high up.",
+    "emoji": "\u2b07\ufe0f"
+  },
+  {
+    "word": "mad",
+    "def": "Feeling very angry.",
+    "emoji": "\ud83d\ude20"
+  },
+  {
+    "word": "man",
+    "def": "A grown-up male person.",
+    "emoji": "\ud83d\udc68"
+  },
+  {
+    "word": "map",
+    "def": "A drawing that shows where places are.",
+    "emoji": "\ud83d\uddfa\ufe0f"
+  },
+  {
+    "word": "mat",
+    "def": "A flat piece of material you wipe your feet on or sit on.",
+    "emoji": "\ud83d\udfeb"
+  },
+  {
+    "word": "max",
+    "def": "The most or biggest amount possible.",
+    "emoji": "\ud83d\udcc8"
+  },
+  {
+    "word": "melon",
+    "def": "A big, juicy, round fruit.",
+    "emoji": "\ud83c\udf48"
+  },
+  {
+    "word": "milk",
+    "def": "A white drink that comes from cows.",
+    "emoji": "\ud83e\udd5b"
+  },
+  {
+    "word": "mirror",
+    "def": "A shiny surface that shows your reflection.",
+    "emoji": "\ud83e\ude9e"
+  },
+  {
+    "word": "mix",
+    "def": "To stir different things together.",
+    "emoji": "\ud83e\udd63"
+  },
+  {
+    "word": "mom",
+    "def": "Your mother.",
+    "emoji": "\ud83d\udc69"
+  },
+  {
+    "word": "monkey",
+    "def": "An animal that climbs trees and looks a bit like a person.",
+    "emoji": "\ud83d\udc35"
+  },
+  {
+    "word": "moon",
+    "def": "The round object in the sky at night.",
+    "emoji": "\ud83c\udf19"
+  },
+  {
+    "word": "mop",
+    "def": "A tool with a long handle used to clean floors.",
+    "emoji": "\ud83e\uddf9"
+  },
+  {
+    "word": "mountain",
+    "def": "A very tall, large hill made of rock.",
+    "emoji": "\u26f0\ufe0f"
+  },
+  {
+    "word": "mouse",
+    "def": "A tiny animal with a long tail.",
+    "emoji": "\ud83d\udc2d"
+  },
+  {
+    "word": "mud",
+    "def": "Wet, sticky dirt.",
+    "emoji": "\ud83d\udfe4"
+  },
+  {
+    "word": "mug",
+    "def": "A cup with a handle used for hot drinks.",
+    "emoji": "\u2615"
+  },
+  {
+    "word": "music",
+    "def": "Sounds arranged in a pleasing way, like songs.",
+    "emoji": "\ud83c\udfb5"
+  },
+  {
+    "word": "nap",
+    "def": "A short sleep, usually during the day.",
+    "emoji": "\ud83d\ude34"
+  },
+  {
+    "word": "nest",
+    "def": "A home a bird builds for its eggs.",
+    "emoji": "\ud83e\udeba"
+  },
+  {
+    "word": "net",
+    "def": "A woven material with holes, used to catch things.",
+    "emoji": "\ud83e\udd45"
+  },
+  {
+    "word": "new",
+    "def": "Just made or not used before.",
+    "emoji": "\u2728"
+  },
+  {
+    "word": "nine",
+    "def": "The number 9.",
+    "emoji": "9\ufe0f\u20e3"
+  },
+  {
+    "word": "nod",
+    "def": "To move your head up and down to say yes.",
+    "emoji": "\ud83d\ude46"
+  },
+  {
+    "word": "not",
+    "def": "A word that means no or the opposite.",
+    "emoji": "\ud83d\udeab"
+  },
+  {
+    "word": "now",
+    "def": "At this exact moment.",
+    "emoji": "\u23f0"
+  },
+  {
+    "word": "ocean",
+    "def": "A very large body of salt water.",
+    "emoji": "\ud83c\udf0a"
+  },
+  {
+    "word": "old",
+    "def": "Having lived or existed for a long time.",
+    "emoji": "\ud83d\udc74"
+  },
+  {
+    "word": "one",
+    "def": "The number 1.",
+    "emoji": "1\ufe0f\u20e3"
+  },
+  {
+    "word": "orange",
+    "def": "A color, and also a round juicy fruit.",
+    "emoji": "\ud83d\udfe0"
+  },
+  {
+    "word": "out",
+    "def": "Not in, or moving away from a place.",
+    "emoji": "\ud83d\udeaa"
+  },
+  {
+    "word": "owl",
+    "def": "A bird with big eyes that is awake at night.",
+    "emoji": "\ud83e\udd89"
+  },
+  {
+    "word": "pan",
+    "def": "A flat metal container used for cooking.",
+    "emoji": "\ud83c\udf73"
+  },
+  {
+    "word": "panda",
+    "def": "A black and white bear that eats bamboo.",
+    "emoji": "\ud83d\udc3c"
+  },
+  {
+    "word": "paper",
+    "def": "A thin material you write or draw on.",
+    "emoji": "\ud83d\udcc4"
+  },
+  {
+    "word": "park",
+    "def": "An outdoor place with grass and trees for playing.",
+    "emoji": "\ud83c\udfde\ufe0f"
+  },
+  {
+    "word": "party",
+    "def": "A fun gathering to celebrate something.",
+    "emoji": "\ud83c\udf89"
+  },
+  {
+    "word": "peach",
+    "def": "A soft, fuzzy, sweet fruit.",
+    "emoji": "\ud83c\udf51"
+  },
+  {
+    "word": "pen",
+    "def": "A tool with ink used for writing.",
+    "emoji": "\ud83d\udd8a\ufe0f"
+  },
+  {
+    "word": "pencil",
+    "def": "A tool used for writing or drawing.",
+    "emoji": "\u270f\ufe0f"
+  },
+  {
+    "word": "penguin",
+    "def": "A black and white bird that cannot fly but swims well.",
+    "emoji": "\ud83d\udc27"
+  },
+  {
+    "word": "phone",
+    "def": "A device used to talk to people far away.",
+    "emoji": "\ud83d\udcf1"
+  },
+  {
+    "word": "piano",
+    "def": "A large musical instrument with black and white keys.",
+    "emoji": "\ud83c\udfb9"
+  },
+  {
+    "word": "pig",
+    "def": "A pink farm animal that says oink.",
+    "emoji": "\ud83d\udc37"
+  },
+  {
+    "word": "pillow",
+    "def": "A soft cushion you rest your head on.",
+    "emoji": "\ud83d\udecc"
+  },
+  {
+    "word": "pink",
+    "def": "A light red color.",
+    "emoji": "\ud83d\udc97"
+  },
+  {
+    "word": "pizza",
+    "def": "A round food with cheese and toppings on flat dough.",
+    "emoji": "\ud83c\udf55"
+  },
+  {
+    "word": "plane",
+    "def": "A vehicle that flies through the air.",
+    "emoji": "\u2708\ufe0f"
+  },
+  {
+    "word": "planet",
+    "def": "A large round object in space that orbits a star.",
+    "emoji": "\ud83e\ude90"
+  },
+  {
+    "word": "plate",
+    "def": "A flat dish you put food on.",
+    "emoji": "\ud83c\udf7d\ufe0f"
+  },
+  {
+    "word": "play",
+    "def": "To have fun doing an activity or game.",
+    "emoji": "\ud83e\uddf8"
+  },
+  {
+    "word": "pop",
+    "def": "A quick, sharp sound, like a balloon bursting.",
+    "emoji": "\ud83c\udf88"
+  },
+  {
+    "word": "pot",
+    "def": "A round container used for cooking.",
+    "emoji": "\ud83c\udf72"
+  },
+  {
+    "word": "potato",
+    "def": "A vegetable that grows underground and can be baked or fried.",
+    "emoji": "\ud83e\udd54"
+  },
+  {
+    "word": "purple",
+    "def": "A color made by mixing red and blue.",
+    "emoji": "\ud83d\udfe3"
+  },
+  {
+    "word": "put",
+    "def": "To place something somewhere.",
+    "emoji": "\ud83d\udc47"
+  },
+  {
+    "word": "puzzle",
+    "def": "A game made of pieces that fit together.",
+    "emoji": "\ud83e\udde9"
+  },
+  {
+    "word": "queen",
+    "def": "A woman who rules a country.",
+    "emoji": "\ud83d\udc78"
+  },
+  {
+    "word": "rabbit",
+    "def": "A small furry animal with long ears that hops.",
+    "emoji": "\ud83d\udc30"
+  },
+  {
+    "word": "rain",
+    "def": "Water that falls from clouds in the sky.",
+    "emoji": "\ud83c\udf27\ufe0f"
+  },
+  {
+    "word": "rainbow",
+    "def": "A colorful arc that appears in the sky after rain.",
+    "emoji": "\ud83c\udf08"
+  },
+  {
+    "word": "read",
+    "def": "To look at words and understand them.",
+    "emoji": "\ud83d\udcda"
+  },
+  {
+    "word": "red",
+    "def": "A bright color, like a fire truck.",
+    "emoji": "\ud83d\udd34"
+  },
+  {
+    "word": "rice",
+    "def": "Small white or brown grains that are cooked and eaten.",
+    "emoji": "\ud83c\udf5a"
+  },
+  {
+    "word": "ring",
+    "def": "A small circle of jewelry you wear on your finger.",
+    "emoji": "\ud83d\udc8d"
+  },
+  {
+    "word": "river",
+    "def": "A long, flowing body of water.",
+    "emoji": "\ud83c\udfde\ufe0f"
+  },
+  {
+    "word": "robot",
+    "def": "A machine that can move and do tasks on its own.",
+    "emoji": "\ud83e\udd16"
+  },
+  {
+    "word": "rock",
+    "def": "A hard piece of stone.",
+    "emoji": "\ud83e\udea8"
+  },
+  {
+    "word": "rocket",
+    "def": "A vehicle that flies into space.",
+    "emoji": "\ud83d\ude80"
+  },
+  {
+    "word": "roof",
+    "def": "The top covering of a building.",
+    "emoji": "\ud83c\udfe0"
+  },
+  {
+    "word": "run",
+    "def": "To move fast on your feet.",
+    "emoji": "\ud83c\udfc3"
+  },
+  {
+    "word": "sad",
+    "def": "Feeling unhappy.",
+    "emoji": "\ud83d\ude22"
+  },
+  {
+    "word": "sand",
+    "def": "Tiny grains of rock found on beaches and deserts.",
+    "emoji": "\ud83c\udfd6\ufe0f"
+  },
+  {
+    "word": "sandwich",
+    "def": "Food made with slices of bread and fillings in between.",
+    "emoji": "\ud83e\udd6a"
+  },
+  {
+    "word": "saw",
+    "def": "Looked at something in the past, or a tool for cutting wood.",
+    "emoji": "\ud83d\udc40"
+  },
+  {
+    "word": "say",
+    "def": "To speak words.",
+    "emoji": "\ud83d\udcac"
+  },
+  {
+    "word": "school",
+    "def": "A place where children go to learn.",
+    "emoji": "\ud83c\udfeb"
+  },
+  {
+    "word": "see",
+    "def": "To use your eyes to look at something.",
+    "emoji": "\ud83d\udc41\ufe0f"
+  },
+  {
+    "word": "seven",
+    "def": "The number 7.",
+    "emoji": "7\ufe0f\u20e3"
+  },
+  {
+    "word": "shark",
+    "def": "A big fish with sharp teeth that lives in the ocean.",
+    "emoji": "\ud83e\udd88"
+  },
+  {
+    "word": "sheep",
+    "def": "A fluffy farm animal that gives us wool.",
+    "emoji": "\ud83d\udc11"
+  },
+  {
+    "word": "ship",
+    "def": "A very large boat.",
+    "emoji": "\ud83d\udea2"
+  },
+  {
+    "word": "shoe",
+    "def": "Something you wear on your foot.",
+    "emoji": "\ud83d\udc5f"
+  },
+  {
+    "word": "sing",
+    "def": "To make music with your voice.",
+    "emoji": "\ud83c\udfa4"
+  },
+  {
+    "word": "sit",
+    "def": "To rest your body down on a chair or the floor.",
+    "emoji": "\ud83e\ude91"
+  },
+  {
+    "word": "six",
+    "def": "The number 6.",
+    "emoji": "6\ufe0f\u20e3"
+  },
+  {
+    "word": "sky",
+    "def": "The space above the earth where clouds and birds are.",
+    "emoji": "\ud83c\udf24\ufe0f"
+  },
+  {
+    "word": "sleep",
+    "def": "To rest with your eyes closed at night.",
+    "emoji": "\ud83d\ude34"
+  },
+  {
+    "word": "smile",
+    "def": "A happy expression on your face.",
+    "emoji": "\ud83d\ude0a"
+  },
+  {
+    "word": "snake",
+    "def": "A long animal with no legs that slithers.",
+    "emoji": "\ud83d\udc0d"
+  },
+  {
+    "word": "snow",
+    "def": "Soft, cold, white flakes that fall in winter.",
+    "emoji": "\u2744\ufe0f"
+  },
+  {
+    "word": "soap",
+    "def": "Something used with water to get clean.",
+    "emoji": "\ud83e\uddfc"
+  },
+  {
+    "word": "sock",
+    "def": "Soft clothing you wear on your foot, under your shoe.",
+    "emoji": "\ud83e\udde6"
+  },
+  {
+    "word": "soup",
+    "def": "A warm liquid food often eaten with a spoon.",
+    "emoji": "\ud83c\udf72"
+  },
+  {
+    "word": "space",
+    "def": "The huge area beyond Earth's sky where planets and stars are.",
+    "emoji": "\ud83c\udf0c"
+  },
+  {
+    "word": "spider",
+    "def": "A small crawling animal with eight legs that spins webs.",
+    "emoji": "\ud83d\udd77\ufe0f"
+  },
+  {
+    "word": "spoon",
+    "def": "A utensil with a small bowl shape used for eating.",
+    "emoji": "\ud83e\udd44"
+  },
+  {
+    "word": "spring",
+    "def": "The season after winter, when flowers bloom.",
+    "emoji": "\ud83c\udf37"
+  },
+  {
+    "word": "squirrel",
+    "def": "A small furry animal with a bushy tail that climbs trees.",
+    "emoji": "\ud83d\udc3f\ufe0f"
+  },
+  {
+    "word": "star",
+    "def": "A bright light you see twinkling in the night sky.",
+    "emoji": "\u2b50"
+  },
+  {
+    "word": "storm",
+    "def": "Very bad, windy, rainy weather.",
+    "emoji": "\u26c8\ufe0f"
+  },
+  {
+    "word": "summer",
+    "def": "The warm season of the year.",
+    "emoji": "\ud83c\udf1e"
+  },
+  {
+    "word": "sun",
+    "def": "The bright star in the sky that gives us light and warmth.",
+    "emoji": "\u2600\ufe0f"
+  },
+  {
+    "word": "swim",
+    "def": "To move through water using your arms and legs.",
+    "emoji": "\ud83c\udfca"
+  },
+  {
+    "word": "table",
+    "def": "A piece of furniture with a flat top you eat or work on.",
+    "emoji": "\ud83e\ude91"
+  },
+  {
+    "word": "teacher",
+    "def": "A person who helps students learn.",
+    "emoji": "\ud83e\uddd1\u200d\ud83c\udfeb"
+  },
+  {
+    "word": "ten",
+    "def": "The number 10.",
+    "emoji": "\ud83d\udd1f"
+  },
+  {
+    "word": "three",
+    "def": "The number 3.",
+    "emoji": "3\ufe0f\u20e3"
+  },
+  {
+    "word": "throw",
+    "def": "To send something through the air with your hand.",
+    "emoji": "\ud83e\udd3e"
+  },
+  {
+    "word": "thunder",
+    "def": "The loud rumbling sound that follows lightning.",
+    "emoji": "\u26c8\ufe0f"
+  },
+  {
+    "word": "tiger",
+    "def": "A big wild cat with orange and black stripes.",
+    "emoji": "\ud83d\udc2f"
+  },
+  {
+    "word": "top",
+    "def": "The highest part of something.",
+    "emoji": "\ud83d\udd1d"
+  },
+  {
+    "word": "towel",
+    "def": "A cloth used to dry yourself off.",
+    "emoji": "\ud83e\uddfb"
+  },
+  {
+    "word": "toy",
+    "def": "Something children play with.",
+    "emoji": "\ud83e\uddf8"
+  },
+  {
+    "word": "train",
+    "def": "A long vehicle that runs on tracks.",
+    "emoji": "\ud83d\ude82"
+  },
+  {
+    "word": "tree",
+    "def": "A tall plant with a trunk, branches, and leaves.",
+    "emoji": "\ud83c\udf33"
+  },
+  {
+    "word": "truck",
+    "def": "A big vehicle used to carry things.",
+    "emoji": "\ud83d\ude9a"
+  },
+  {
+    "word": "try",
+    "def": "To attempt to do something.",
+    "emoji": "\ud83d\udcaa"
+  },
+  {
+    "word": "turtle",
+    "def": "A slow-moving animal with a hard shell.",
+    "emoji": "\ud83d\udc22"
+  },
+  {
+    "word": "two",
+    "def": "The number 2.",
+    "emoji": "2\ufe0f\u20e3"
+  },
+  {
+    "word": "use",
+    "def": "To do something with an object for a purpose.",
+    "emoji": "\ud83d\udd27"
+  },
+  {
+    "word": "van",
+    "def": "A boxy vehicle used to carry people or things.",
+    "emoji": "\ud83d\ude90"
+  },
+  {
+    "word": "walk",
+    "def": "To move by putting one foot in front of the other.",
+    "emoji": "\ud83d\udeb6"
+  },
+  {
+    "word": "wall",
+    "def": "A vertical structure that separates spaces.",
+    "emoji": "\ud83e\uddf1"
+  },
+  {
+    "word": "water",
+    "def": "The clear liquid we drink and swim in.",
+    "emoji": "\ud83d\udca7"
+  },
+  {
+    "word": "web",
+    "def": "A sticky net a spider spins to catch food.",
+    "emoji": "\ud83d\udd78\ufe0f"
+  },
+  {
+    "word": "wet",
+    "def": "Covered or soaked with water.",
+    "emoji": "\ud83d\udca6"
+  },
+  {
+    "word": "whale",
+    "def": "A huge animal that lives in the ocean.",
+    "emoji": "\ud83d\udc33"
+  },
+  {
+    "word": "white",
+    "def": "The color of fresh snow.",
+    "emoji": "\u26aa"
+  },
+  {
+    "word": "win",
+    "def": "To do the best in a game or contest.",
+    "emoji": "\ud83c\udfc6"
+  },
+  {
+    "word": "wind",
+    "def": "Air that is moving.",
+    "emoji": "\ud83d\udca8"
+  },
+  {
+    "word": "window",
+    "def": "An opening in a wall with glass, letting in light.",
+    "emoji": "\ud83e\ude9f"
+  },
+  {
+    "word": "winter",
+    "def": "The cold season of the year.",
+    "emoji": "\u26c4"
+  },
+  {
+    "word": "wolf",
+    "def": "A wild animal related to dogs that howls at night.",
+    "emoji": "\ud83d\udc3a"
+  },
+  {
+    "word": "write",
+    "def": "To put words on paper using a pen or pencil.",
+    "emoji": "\u270f\ufe0f"
+  },
+  {
+    "word": "yellow",
+    "def": "The color of the sun and bananas.",
+    "emoji": "\ud83d\udfe1"
+  },
+  {
+    "word": "yes",
+    "def": "A word that means you agree.",
+    "emoji": "\u2705"
+  },
+  {
+    "word": "yet",
+    "def": "Up until now.",
+    "emoji": "\u23f3"
+  },
+  {
+    "word": "yum",
+    "def": "A word you say when food tastes really good.",
+    "emoji": "\ud83d\ude0b"
+  },
+  {
+    "word": "zebra",
+    "def": "A wild animal that looks like a horse with black and white stripes.",
+    "emoji": "\ud83e\udd93"
+  },
+  {
+    "word": "zoo",
+    "def": "A place where wild animals are kept for people to see.",
+    "emoji": "\ud83e\udd81"
+  }
 ]
