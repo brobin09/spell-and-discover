@@ -1,6 +1,17 @@
 import { KokoroTTS } from "kokoro-js";
+import { env as ortEnv } from "@huggingface/transformers";
 
 const MODEL_ID = "onnx-community/Kokoro-82M-v1.0-ONNX";
+
+// Force single-threaded WASM with no WebGPU. A direct Node.js run of this
+// exact model produced perfect audio, but the in-browser run came out
+// garbled — meaning inference itself is silently computing wrong numbers in
+// the browser, not erroring. That points at Safari's WebGPU or
+// multi-threaded/SIMD WASM paths, both of which have known correctness bugs
+// (as opposed to just being slow). Trading speed for correctness here is
+// the right call for a kids' app.
+ortEnv.backends.onnx.wasm.numThreads = 1;
+ortEnv.backends.onnx.wasm.simd = false;
 
 // Picked for Kokoro's own quality grades (A / A- / B- / C+) — the previous
 // bf_lily (D) and am_michael (C+) picks could come out mumbled enough to be
@@ -44,29 +55,15 @@ export async function loadModel(onProgress) {
   if (loadingPromise) return loadingPromise;
 
   loadingPromise = (async () => {
-    let device = "wasm";
-    try {
-      if (navigator.gpu) device = "webgpu";
-    } catch {
-      /* navigator.gpu not available */
-    }
     try {
       ttsInstance = await KokoroTTS.from_pretrained(MODEL_ID, {
         dtype: "q8",
-        device,
+        device: "wasm",
         progress_callback: onProgress,
       });
     } catch (err) {
-      if (device !== "wasm") {
-        ttsInstance = await KokoroTTS.from_pretrained(MODEL_ID, {
-          dtype: "q8",
-          device: "wasm",
-          progress_callback: onProgress,
-        });
-      } else {
-        loadingPromise = null;
-        throw err;
-      }
+      loadingPromise = null;
+      throw err;
     }
     return ttsInstance;
   })();
