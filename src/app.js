@@ -279,9 +279,12 @@ function toggleMute() {
 }
 
 async function loadData() {
+  // "no-cache" forces revalidation with the server on every load (via ETag),
+  // so word-list updates show up immediately instead of waiting out GitHub
+  // Pages' 10-minute Cache-Control window in the browser's HTTP cache.
   const [wordsRes, namesRes] = await Promise.all([
-    fetch("data/words.json"),
-    fetch("data/names.json"),
+    fetch("data/words.json", { cache: "no-cache" }),
+    fetch("data/names.json", { cache: "no-cache" }),
   ]);
   const words = await wordsRes.json();
   const names = await namesRes.json();
