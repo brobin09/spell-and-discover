@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+<title>Spell &amp; Discover</title>
+<meta name="theme-color" content="#5b7fff">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="app">
+
+  <header class="topbar">
+    <div class="logo">🔤 <span>Spell &amp; Discover</span></div>
+    <div class="topbar-actions">
+      <button id="modeToggle" class="mode-toggle" title="Switch keyboard size" aria-label="Toggle simple mode for younger toddlers">🧒 Simple</button>
+      <button id="speakerToggle" class="icon-btn" title="Mute/unmute" aria-label="Mute or unmute sound">🔊</button>
+    </div>
+  </header>
+
+  <div id="voicePicker" class="voice-picker" aria-label="Choose a narrator voice"></div>
+
+  <main>
+    <section class="stage" aria-live="polite">
+      <div id="illustration" class="illustration" aria-hidden="true">
+        <span class="placeholder-emoji bounce">✨</span>
+      </div>
+      <div id="resultText" class="result-text">Spell any word or name!</div>
+      <div id="definitionText" class="definition-text"></div>
+      <div id="suggestions" class="suggestions"></div>
+    </section>
+
+    <section class="typed-row" aria-label="Letters you have typed">
+      <div id="typedDisplay" class="typed-display"></div>
+    </section>
+
+    <section class="keyboard" id="keyboard" aria-label="Letter keyboard"></section>
+
+    <section class="controls">
+      <button id="clearBtn" class="control-btn secondary">⌫ Oops!</button>
+      <button id="resetBtn" class="control-btn secondary">🔄 Start Over</button>
+      <button id="submitBtn" class="control-btn primary">✅ Check It!</button>
+    </section>
+  </main>
+
+  <div id="loadingOverlay" class="loading-overlay" hidden>
+    <div class="loading-card">
+      <div class="loading-mascot bounce">🐝</div>
+      <div class="loading-title">Waking up my voice&hellip;</div>
+      <div class="loading-bar-track"><div id="loadingBar" class="loading-bar"></div></div>
+      <div id="loadingPct" class="loading-pct">Getting ready to talk (one-time download)</div>
+    </div>
+  </div>
+
+</div>
+
+<script type="module" src="/src/app.js"></script>
+</body>
+</html>
